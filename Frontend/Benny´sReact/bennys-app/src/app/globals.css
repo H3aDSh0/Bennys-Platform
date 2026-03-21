@@ -1,0 +1,215 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 240 10% 3.9%;
+
+      --card: 0 0% 100%;
+      --card-foreground: 240 10% 3.9%;
+
+      --popover: 0 0% 100%;
+      --popover-foreground: 240 10% 3.9%;
+
+      --primary: 240 5.9% 10%;
+      --primary-foreground: 0 0% 98%;
+
+      --secondary: 240 4.8% 95.9%;
+      --secondary-foreground: 240 5.9% 10%;
+
+      --muted: 240 4.8% 95.9%;
+      --muted-foreground: 240 3.8% 46.1%;
+
+      --accent: 240 4.8% 95.9%;
+      --accent-foreground: 240 5.9% 10%;
+
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 0 0% 98%;
+
+      --border: 240 5.9% 90%;
+      --input: 240 5.9% 90%;
+      --ring: 240 10% 3.9%;
+
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 240 10% 3.9%;
+      --foreground: 0 0% 98%;
+
+      --card: 240 10% 3.9%;
+      --card-foreground: 0 0% 98%;
+
+      --popover: 240 10% 3.9%;
+      --popover-foreground: 0 0% 98%;
+
+      --primary: 0 0% 98%;
+      --primary-foreground: 240 5.9% 10%;
+
+      --secondary: 240 3.7% 15.9%;
+      --secondary-foreground: 0 0% 98%;
+
+      --muted: 240 3.7% 15.9%;
+      --muted-foreground: 240 5% 64.9%;
+
+      --accent: 240 3.7% 15.9%;
+      --accent-foreground: 0 0% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 0 0% 98%;
+
+      --border: 240 3.7% 15.9%;
+      --input: 240 3.7% 15.9%;
+      --ring: 240 4.9% 83.9%;
+    }
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }
+
+
+  @layer components {
+    .toast-success {
+      --toast-bg-color: #2ca25f; /* Cor de fundo verde escuro */
+      --toast-text-color: #FFFFFF; /* Cor do texto branco */
+      --toast-border-color: #2ca25f; /* Cor da borda igual à cor de fundo */
+    }
+  }
+  
+  @layer utilities {
+    .toast-success {
+      @apply border border-solid rounded-md p-4; /* Aplicando estilos de borda, borda arredondada e padding */
+      background-color: var(--toast-bg-color); /* Definindo a cor de fundo */
+      color: var(--toast-text-color); /* Definindo a cor do texto */
+      border-color: var(--toast-border-color); /* Definindo a cor da borda */
+    }
+  }
+
+
+
+.grid-cols-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  gap: 2rem; /* Default gap between logos */
+  justify-content: center; /* Center the logos horizontally */
+}
+
+@media (min-width: 768px) {
+  .grid-cols-logos {
+    gap: 3rem; /* Adjusted gap for larger screens */
+  }
+}
+
+@media (max-width: 530px) {
+  .grid-cols-logos {
+    grid-template-columns: repeat(3, 1fr); /* Dois ícones por linha */
+    justify-content: space-between; /* Centralizar horizontalmente na última linha */
+  }
+}
+
+
+
+.bg-dark{
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 46 46 / var(--tw-bg-opacity));
+}
+
+.text-dark {
+  --tw-text-opacity: 1;
+  color: rgb(46 46 46 / var(--tw-text-opacity));
+}
+
+
+
+/* Por exemplo, alterando para 3 colunas em telas com largura entre 1024px e 1439px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid-cols-1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Por exemplo, alterando para 3 colunas em telas com largura entre 1024px e 1439px */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .grid-cols-1 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    
+  }
+}
+
+/* Alterando para 4 colunas em telas maiores que 1440px */
+@media (min-width: 1440px) {
+  .grid-cols-1 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+
+/*
+.card-image-container {
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-image-container:hover img {
+  
+  
+}*/
+
+.card:hover {
+  transition: transform 0.2s ease-in-out;
+
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  filter: brightness(90%);
+
+}
+
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-foreground {
+  color: #000000; 
+}
+
+
+
+
+.editable {
+  background-color: #f0f0f0; 
+}
+.non-editable {
+  background-color: #dddddd; 
+}
+
+.selected {
+  filter: brightness(90%);
+}
+
