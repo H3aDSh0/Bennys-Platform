@@ -1,8 +1,8 @@
 # Benny's Platform 🏎️
 
-> **O meu Projeto de Aptidão Profissional (PAP) | Classificação Final: 20/20**
+> **Projeto de Aptidão Profissional (PAP) | Classificação Final: 20/20**
 > 
-> Bem-vindo à **Benny's Platform**. Desenvolvi esta solução Full-Stack para te oferecer um marketplace automóvel completo, onde podes centralizar a compra, venda e gestão de veículos numa experiência que prioriza a segurança e a simplicidade.
+> Bem-vindo à **Benny's Platform**. Desenvolvi esta solução Full-Stack para te oferecer um marketplace automóvel completo, onde podes centralizar a compra, venda e gestão de veículos numa experiência intuitiva, robusta e segura.
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-green?style=flat-square&logo=springboot)](https://spring.io/projects/spring-boot)
@@ -11,57 +11,57 @@
 
 ---
 
-## 📑 O Meu Percurso Académico
+## 📑 Contexto Académico
 
-Criei este projeto como prova final para o curso **Técnico de Gestão e Programação de Sistemas Informáticos** na **Escola Secundária António Damásio** (2023/2024). 
+Este projeto marca a conclusão do curso **Técnico de Gestão e Programação de Sistemas Informáticos** na **Escola Secundária António Damásio** (Ano Letivo 2023/2024). 
 
-Fiquei muito orgulhoso por alcançar a **classificação final de 20 valores**. Esta nota reflete todo o trabalho que vais encontrar aqui: desde o desenvolvimento da plataforma e a redação do relatório técnico, até à apresentação e defesa final perante o júri. É um projeto que representa a minha qualificação de **Nível IV** do Quadro Nacional de Qualificações.
-
----
-
-## 🛠️ Tecnologias que Vais Encontrar
-
-Para garantir que a plataforma é robusta e rápida, escolhi tecnologias modernas que podes explorar no código:
-
-* **Frontend:** Utilizei **Next.js 14** com **TypeScript**. Para o design, usei **Tailwind CSS** e **Shadcn/UI**, garantindo que as animações feitas com **Framer Motion** tornam a navegação mais fluida.
-* **Backend:** O "motor" do sistema corre em **Java 17** com **Spring Boot 3**. Para a persistência de dados, podes verificar a implementação do **Spring Data JPA**.
-* **Base de Dados:** Toda a informação está estruturada em **Microsoft SQL Server (MSSQL)**.
-* **Segurança:** Implementei protocolos **JWT** e um sistema de **Magic Links**. Assim, podes ter a certeza de que o acesso é seguro e livre de passwords complicadas.
+A **Prova de Aptidão Profissional (PAP)** — que englobou o desenvolvimento da plataforma, a redação do relatório técnico e a respetiva apresentação e defesa perante o júri — obtive a **classificação final de 20 valores**. Este resultado reflete o rigor técnico e a complexidade de todo o ecossistema aqui apresentado, representando a minha qualificação de **Nível IV** do Quadro Nacional de Qualificações.
 
 ---
 
-## 🚀 O que Podes Fazer na Plataforma?
+## 🛠️ O que Vais Encontrar "Debaixo do Capot"
+
+Para garantir que a plataforma é escalável e segura, utilizei tecnologias de referência no mercado que podes explorar diretamente no código:
+
+* **Interface Moderna:** Construída com **Next.js 14** e **TypeScript**. Podes verificar o uso de **Tailwind CSS** e **Shadcn/UI** para o design, com animações fluidas em **Framer Motion**.
+* **Backend Robusto:** O motor do sistema utiliza **Java 17** com **Spring Boot 3**, garantindo uma lógica de negócio eficiente e bem estruturada.
+* **Dados e Persistência:** Toda a informação está organizada em **Microsoft SQL Server (MSSQL)**, utilizando **Spring Data JPA** para a gestão dos dados.
+* **Segurança Avançada:** Implementei protocolos **JWT** e fluxos de **Magic Links**, para que possas aceder à plataforma com total segurança e sem a fricção de passwords tradicionais.
+
+---
+
+## 🚀 Funcionalidades Principais
 
 ### Gere a Tua Identidade
-Podes navegar por diferentes níveis de acesso (**RBAC**). Quer sejas um Utilizador comum, um Fabricante (Partner) ou um Administrador, tens permissões e ferramentas específicas para as tuas necessidades.
+Podes navegar entre diferentes níveis de acesso (**RBAC**). Quer sejas um utilizador comum, um Fabricante (Partner) ou um Administrador, tens ferramentas e permissões desenhadas especificamente para o teu perfil.
 
-### Explora o Mundo Automóvel
-* **Pesquisa à Tua Medida:** Podes filtrar veículos por combustível, tração, potência ou segmento.
-* **A Tua Garagem Virtual:** Tens um espaço dedicado para gerires o teu inventário pessoal.
-* **Parcerias:** Se fores um fabricante, podes submeter propostas de novos modelos que passam por um fluxo de aprovação transparente.
+### Marketplace Completo
+* **Pesquisa Dinâmica:** Encontra o que procuras através de filtros por segmento, combustível, potência ou tração.
+* **A Tua Garagem Virtual:** Tens um espaço dedicado para gerires o teu inventário e o histórico dos teus veículos.
+* **Workflow de Parceiros:** Se fores um fabricante, podes submeter novos modelos para aprovação do administrador de forma simples.
 
-### Apoio e Gestão
-O sistema já está preparado para te ajudar com registos de manutenção, apólices de seguro e um canal direto de suporte para resolveres qualquer incidente.
+### Suporte e Gestão
+A plataforma está preparada para gerir registos de manutenção e apólices de seguro, contando ainda com um canal de suporte integrado para resolveres qualquer incidente.
 
 ---
 
-## 📸 Espreita a Interface
+## 📸 Demonstração da Interface
 
 <div align="center">
 
   <img src="https://github.com/user-attachments/assets/141aa144-2ed3-4309-84ac-96f6dab2d39c" width="48%" alt="Autenticação" />
-  <p><i>Módulos de autenticação e gestão do teu perfil.</i></p>
+  <p><i>Módulos de autenticação e gestão de perfil de utilizador.</i></p>
   
   <br>
   
   <img src="https://github.com/user-attachments/assets/85d304cd-b6c3-4e15-b13d-71d52b43aca1" width="48%" alt="Submissão de Veículos" />
   <img src="https://github.com/user-attachments/assets/11e3d076-58de-4373-9971-d585145d46f3" width="48%" alt="Painel Administrativo" />
-  <p><i>Aqui podes gerir propostas e aceder ao dashboard de administração.</i></p>
+  <p><i>Gestão de propostas e dashboard de administração.</i></p>
 
   <br>
 
-  <img src="https://github.com/user-attachments/assets/3fd68e01-e278-4687-a4e3-00e561980a69" width="75%" alt="Marketplace" />
-  <p><i>O Marketplace principal: vê todos os detalhes técnicos de cada veículo.</i></p>
+  <img src="https://github.com/user-attachments/assets/3fd68e01-e278-4687-a4e3-00e561980a69" width="75%" alt="Marketplace View" />
+  <p><i>O Marketplace principal com visualização detalhada de inventário.</i></p>
   
 </div>
 
@@ -69,9 +69,9 @@ O sistema já está preparado para te ajudar com registos de manutenção, apól
 
 ## 📄 Documentação
 
-Podes consultar todos os detalhes do planeamento nos documentos que deixei na raiz do repositório:
-* [`Relatorio_Tecnico_PAP.pdf`](./Relatorio_Tecnico_PAP.pdf) - A base teórica e técnica de todo o projeto.
-* [`Manual_de_Utilizador.pdf`](./Manual_de_Utilizador.pdf) - Um guia prático para saberes como usar a plataforma.
+Podes consultar os detalhes do planeamento e operação do sistema nos documentos incluídos na raiz:
+* [`Relatorio_Tecnico_PAP.pdf`](./Relatorio_Tecnico_PAP.pdf) - Detalha a arquitetura e a lógica do sistema.
+* [`Manual_de_Utilizador.pdf`](./Manual_de_Utilizador.pdf) - Guia prático de utilização.
 
 ---
 
@@ -82,8 +82,8 @@ Podes consultar todos os detalhes do planeamento nos documentos que deixei na ra
 * **Node.js 18+**
 * **Microsoft SQL Server**
 
-### 1. Configura a Base de Dados
-Executa o script SQL que encontras aqui: `DB/CreateBennysDB.sql`.
+### 1. Prepara a Base de Dados
+Executa o script SQL disponível em: `DB/CreateBennysDB.sql`.
 
 ### 2. Arranca o Servidor (Backend)
 ```bash
