@@ -53,6 +53,31 @@ A plataforma foi construída com uma stack moderna, focada em desempenho, escala
 
 ---
 
+## Análise de Sistemas e Modelação
+
+O desenvolvimento da plataforma foi suportado por uma fase estruturada de análise de sistemas, essencial para garantir consistência, escalabilidade e organização da solução.
+
+Foram aplicados os seguintes artefactos:
+
+- **Diagramas de Fluxo de Dados (DFD)**  
+  Modelação dos fluxos de informação e interação entre utilizadores, sistema e base de dados.
+
+- **Dicionário de Dados**  
+  Definição detalhada das entidades, atributos e relações utilizadas no sistema.
+
+- **Diagrama de Entidade-Relacionamento (DEA)**  
+  Representação da estrutura da base de dados e das associações entre entidades.
+
+- **Normalização da Base de Dados**  
+  Aplicação de boas práticas para evitar redundância e garantir integridade dos dados.
+
+- **Estrutura da Base de Dados**  
+  Modelação relacional implementada em Microsoft SQL Server, alinhada com os requisitos do sistema.
+
+ A documentação detalhada encontra-se disponível no relatório técnico incluído no projeto.
+
+---
+
 ## Funcionalidades Principais
 
 ### Gestão de Utilizadores
