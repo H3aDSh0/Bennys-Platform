@@ -1,4 +1,4 @@
-# Benny's Platform 🏎️
+# Benny's Platform 
 
 > **Projeto de Aptidão Profissional (PAP) | Classificação Final: 20/20**
 > 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📑 Contexto Académico
+## Contexto Académico
 
 Este projeto marca a conclusão do curso **Técnico de Gestão e Programação de Sistemas Informáticos** na **Escola Secundária António Damásio** (Ano Letivo 2023/2024). 
 
@@ -19,7 +19,7 @@ A **Prova de Aptidão Profissional (PAP)** — que englobou o desenvolvimento da
 
 ---
 
-## 🛠️ O que Vais Encontrar "Debaixo do Capot"
+## O que Vais Encontrar "Debaixo do Capot"
 
 Para garantir que a plataforma é escalável e segura, utilizei tecnologias de referência no mercado que podes explorar diretamente no código:
 
@@ -45,7 +45,7 @@ A plataforma está preparada para gerir registos de manutenção e apólices de 
 
 ---
 
-## 📸 Demonstração da Interface
+## Demonstração da Interface
 
 <div align="center">
 
@@ -67,7 +67,7 @@ A plataforma está preparada para gerir registos de manutenção e apólices de 
 
 ---
 
-## 📄 Documentação
+## Documentação
 
 Podes consultar os detalhes do planeamento e operação do sistema nos documentos incluídos na raiz:
 * [`Relatorio_Tecnico_PAP.pdf`](./Relatorio_Tecnico_PAP.pdf) - Detalha a arquitetura e a lógica do sistema.
@@ -75,7 +75,7 @@ Podes consultar os detalhes do planeamento e operação do sistema nos documento
 
 ---
 
-## ⚙️ Instruções de Instalação
+## Instruções de Instalação
 
 ### O que precisas de ter instalado:
 * **Java JDK 17**
