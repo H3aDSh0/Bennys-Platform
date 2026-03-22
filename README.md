@@ -15,8 +15,7 @@ Bem-vindo à **Benny’s Platform** — uma aplicação Full-Stack desenvolvida 
 
 ## Contexto Académico
 
-Este projeto foi desenvolvido no âmbito da **Prova de Aptidão Profissional (PAP)** do curso de  
-**Técnico de Gestão e Programação de Sistemas Informáticos**, na **Escola Secundária António Damásio** (2023/2024).
+Este projeto foi desenvolvido no âmbito da **Prova de Aptidão Profissional (PAP)** do curso de  **Técnico de Gestão e Programação de Sistemas Informáticos**, na **Escola Secundária António Damásio** (2023/2024).
 
 A PAP incluiu:
 - Desenvolvimento completo da aplicação  
