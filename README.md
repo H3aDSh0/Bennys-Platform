@@ -30,7 +30,7 @@ Para garantir que a plataforma é escalável e segura, utilizei tecnologias de r
 
 ---
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
 ### Gere a Tua Identidade
 Podes navegar entre diferentes níveis de acesso (**RBAC**). Quer sejas um utilizador comum, um Fabricante (Partner) ou um Administrador, tens ferramentas e permissões desenhadas especificamente para o teu perfil.
